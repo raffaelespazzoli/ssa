@@ -1,0 +1,7 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  annotations:
+    ciao: hello
+  name: nodejs-basic
+  namespace: test-ssa
